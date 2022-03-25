@@ -584,9 +584,9 @@
           index = i;
           i = data["Gallery"][i];
           src = i["main"];
-          title = i["Art Compition"];
+          title = i["name"];
           addAlbums(title, src, index);
-          addModel(title, index, i["https://firebasestorage.googleapis.com/v0/b/sandeshfoundation-821ac.appspot.com/o/images%2Fgallary%2FArt%20compition%2F1.jpg?alt=media&token=b4c286c4-d42b-499e-879b-b183054f1b"]);
+          addModel(title, index, i["image"]);
         }
         totalpages = data["pages"];
         //            addpagination(totalpages+1);
